@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 메소드 및 속성</title>
+</head>
+<body id="color">
+    
+    <button onclick="darkMode('white')">white</button>
+    <button onclick="darkMode('black')">black</button>
+    
+    <script>
+        function darkMode(color){
+        //이 안에서 코드 추가해주세요
+            var bColor = document.getElementById("color");
+            bColor.style.backgroundColor = color; 
+            };
+    </script>
+    
+</body>
+</html>
